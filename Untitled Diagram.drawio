@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T19:56:23.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="pYy7c8y3CBrB5mcaR1Nq" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T21:12:02.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="nBajJs45wQScQ5I1LN_x" version="13.8.1" type="github">
   <diagram id="yppRG-tePIilv_Nsz65l" name="Page-1">
-    <mxGraphModel dx="3103" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1847" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8VN1I_g-9GJg09qn3DQg-31" value="The Ice Cream Shop" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="350" y="20" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8VN1I_g-9GJg09qn3DQg-32" value="Operates" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="8VN1I_g-9GJg09qn3DQg-35" value="Location" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="350" y="180" width="100" height="40" as="geometry" />
         </mxCell>
@@ -53,18 +47,6 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="450" y="340" as="sourcePoint" />
             <mxPoint x="555" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8VN1I_g-9GJg09qn3DQg-46" value="" style="fontSize=12;html=1;endArrow=ERmandOne;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VN1I_g-9GJg09qn3DQg-32" target="8VN1I_g-9GJg09qn3DQg-31">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="300" y="190" as="sourcePoint" />
-            <mxPoint x="400" y="90" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8VN1I_g-9GJg09qn3DQg-49" value="" style="fontSize=12;html=1;endArrow=ERmany;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8VN1I_g-9GJg09qn3DQg-32" target="8VN1I_g-9GJg09qn3DQg-35">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="300" y="190" as="sourcePoint" />
-            <mxPoint x="400" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8VN1I_g-9GJg09qn3DQg-51" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VN1I_g-9GJg09qn3DQg-36" target="8VN1I_g-9GJg09qn3DQg-35">
@@ -130,7 +112,7 @@
             <mxPoint x="350" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8VN1I_g-9GJg09qn3DQg-68" value="Sells" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="8VN1I_g-9GJg09qn3DQg-68" value="Makes" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="500" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8VN1I_g-9GJg09qn3DQg-69" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8VN1I_g-9GJg09qn3DQg-68" target="8VN1I_g-9GJg09qn3DQg-70">
@@ -207,7 +189,7 @@
         <mxCell id="8VN1I_g-9GJg09qn3DQg-98" value="SupAddr" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-130" y="230" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8VN1I_g-9GJg09qn3DQg-99" value="SupID" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="8VN1I_g-9GJg09qn3DQg-99" value="SupPhone" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-130" y="180" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8VN1I_g-9GJg09qn3DQg-100" value="SupID" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
